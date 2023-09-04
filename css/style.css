@@ -1,0 +1,22 @@
+body{
+    background: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 10vw;
+    width: 30vw;
+    height: 70vh;
+    /* border: solid 1px black; */
+    background: rgb(206, 206, 206);
+    box-shadow: 5px 5px 5px 5px rgb(73, 73, 73);
+}
+.title,.header{
+    text-align: center;
+}
+
+.move{
+    margin-right: 10px;
+}
