@@ -1,13 +1,13 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* wordt gebruikt voor de downarrow link zodat de transitie smooth is*/
   }
 body{
-    background: ghostwhite;
-    font-family: 'Roboto', sans-serif;
+    background: ghostwhite; /*heb de achtergrond iets minder wit gemaakt*/
+    font-family: 'Roboto', sans-serif; /*lettertype*/
     font-family: 'Roboto Mono', monospace;
-    overflow-x: hidden;
-    height: 100vh;
-    margin: 0 ;
+    overflow-x: hidden; /*zorgt dat je niet zijwaards kan scrollen*/
+    height: 100vh; /*hoogte, 100 hoogte van het scherm*/
+    margin: 0 ; /*haalt eventuele margins weg*/
 }
 .container{
 height: 100vh;
@@ -18,7 +18,7 @@ position: relative;
     margin-top: 45vh;
 }
 a{
-    text-decoration: none;
+    text-decoration: none; /*haalt de streepjes van de linken af*/
 }
 #main{
     position: relative;
@@ -27,16 +27,16 @@ a{
     /* border: solid 2px red; */
     float: left;
     background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,2,2,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,2,2,1) 100%);/*gradient zorgt voor vloeiende achtergrond kleur*/
 }
 .promo{
     position: relative;
     width: 40vw;
     height: 100vh;
     /* border: solid 1px purple; */
-    margin-left: 60vw;
+    margin-left: 60vw; /*geeft extra witruimte aan de linker kant*/
     background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,2,2,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,2,2,1) 100%);
 }
 .text{
     text-align: center;
