@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0 ;
+}
+.container{
+height: 100vh;
+position: relative;
+}
+#teaser{
+    width: 100vw;
+    margin-top: 45vh;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    /* border: solid 2px red; */
+    float: left;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,2,2,1) 100%);
+}
+.promo{
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    /* border: solid 1px purple; */
+    margin-left: 60vw;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,2,2,1) 100%);
+}
+.text{
+    text-align: center;
+}
+#reveal{
+    margin-top: 45vh;
+    width: 60vw;
+    color: rgb(209, 209, 0);
+}
+#knopje{
+    width: 19%;
+    min-width: 200px;
+    height: 5%;
+    min-height: 40px;
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    border-radius: 1em;
+    background: rgb(255, 216, 216);
+    color: red;
+    font-size: larger;
+    transition: 0.5s;
+}
+#knopje:hover{
+    background: red;
+    color: white;
+    transition: 1s;
+}
+.example{
+    min-width: 80px;
+    width: 20vw;
+    min-height: 50px;
+    height: 20vh;
+    border: solid 2px black;
+    margin: 0 auto;
+    margin-top: 15px;
+    transition: 250ms;
+}
+.example:hover{
+    box-shadow: 0 0 10px 5px grey;
+    transition: 0.5s;
+}
+.margin{
+    margin: 0;
+}
+#name{
+    color: rgb(0, 0, 189);
+}
+img{
+    min-width: 80px;
+    width: 20vw;
+    min-height: 50px;
+    height: 20vh;
+}
+#begin{
+    margin-bottom: 50vh;
+}
